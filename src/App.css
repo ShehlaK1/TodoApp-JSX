@@ -1,0 +1,57 @@
+#root {
+    display:flex;
+    flex-direction: column;
+    padding: 1% 1% 0% 1%;
+}.todo-app{
+    width: 100%;
+    border: 2px solid #618264;
+    border-radius: 10px;
+    height: 100vh;
+}
+
+.form-control {
+    height: 10vh;
+}
+
+
+button.btn.btn-outline-secondary  {
+    background-color: #79AC78;
+    border-color: white !important;
+    color: white;
+}
+
+button.btn.btn-outline-secondary:hover  {
+    background-color: #618264;
+    color: white;
+}
+
+
+input.form-control {
+    background-color: #D0E7D2;
+    color: white;
+    border: 3px solid white !important;
+}
+input.form-control :trigger {
+    background-color: #D0E7D2 !important ;
+    color: white;
+    border: 3px solid white !important;
+}
+
+ul.list-group {
+    color: white;
+    background-color: #a2d1a6;
+    display: flex;
+    align-items: center;
+    font-size: 139%;
+}
+
+li.list-group-item {
+    width: 100%;
+    background-color: #B0D9B1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group.mb-3 {
+    margin: 0 !important;
+}
